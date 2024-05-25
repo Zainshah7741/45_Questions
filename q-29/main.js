@@ -10,6 +10,12 @@ if (favorite_fruits.includes("Bananas")) {
 if (favorite_fruits.includes("Oranges")) {
     console.log("You really like Oranges!");
 }
+if (favorite_fruits.includes("Kiwi")) {
+    console.log("You really like Kiwi");
+}
 if (favorite_fruits.includes("Mangoes")) {
     console.log("You really like Mangoes!");
+}
+if (favorite_fruits.includes("Peach")) {
+    console.log("You really like Peach");
 }

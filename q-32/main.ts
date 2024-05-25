@@ -15,7 +15,7 @@ let new_users: string[] = ["zain", "Faheem", "ALI", "Shoaib", "Kashif"];
 new_users.forEach((element) => {
   if (
     current_users.some(
-      (current_User) => current_User.toLowerCase() === element.toLowerCase()
+      (current_User) =>  current_User.toLowerCase() === element.toLowerCase()
     )
   ) {
     console.log(element + " will need to enter a new username.");
